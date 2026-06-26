@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Virtual Environment
+venv/
+env/
+.env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# YOLO Training Outputs
+runs/
+model/train_result/
+model/original/
+
+# Test images & temp
+temp/
+t*.png
+t*.jpg
+
+# ADB tools (user should install separately)
+model/adb/
+
+# Third-party plugins (not suitable for open source)
+model/dm/
+model/aj/
+model/工具/
+
+# Logs
+*.log
+
+# Secrets
+.env
+config.local.*
+一键推送到GitHub.bat
