@@ -1,1 +1,1 @@
-# NPoker Core Module
+# NiuNiu Core Module
